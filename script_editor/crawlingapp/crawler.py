@@ -77,6 +77,7 @@ class Crawler:
 
 
 # For test
+""" Youtube에서 검색할 때 에러 뜸. """
 if __name__ == '__main__':
     searcher = Searcher(ERROR_TYPE[0], "ambiguous word use")
     searcher.search_on('google')
