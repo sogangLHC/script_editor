@@ -9,8 +9,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 #Constants
 SEARCH_ENGINE = {
-    "google": "https://www.google.com",
-    "youtube": "https://www.youtube.com",
+    "google": {"url": "https://www.google.com",
+               "search_bar_XPATH": '//*[@id="APjFqb"]',
+               },
+
+    "youtube": {"url": "https://www.youtube.com",
+                "search_bar_XPATH": '//*[@id="search"]',
+                }
     }
 ERROR_TYPE = ["wrong grammar", "ambiguity", "context"]  # 오류 타입 정의 -> 문법(형태론), 중의성(의미론), 맥락(화용론)
 
@@ -26,6 +31,7 @@ class Searcher:
         self.error_type = error_type
         self.error_keyword = error_keyword
 
+    # 쿼리 보완 필요. 항상 원하는 결과물을 얻을 수 없음.
     def create_search_query(self, search_engine):
         """ Search Query 생성
 
@@ -35,10 +41,10 @@ class Searcher:
         search_engine = 'google'
         primary_reference = None
         if search_engine == 'google':
-            primary_reference = 'Oxford University'
+            primary_reference = 'https://www.ox.ac.uk/'
         elif search_engine == 'youtube':
             primary_reference = 'university lecture'
-        query = f"{self.error_keyword}+{self.error_type}+{primary_reference}"
+        query = f"{self.error_keyword} {self.error_type} site:{primary_reference}"
 
         return query
 
@@ -48,14 +54,10 @@ class Searcher:
         Positional Arguments:
         search_engine -- default: 'google
         """
-        self.driver.get(SEARCH_ENGINE[search_engine])
+        self.driver.get(SEARCH_ENGINE[search_engine]["url"])
         self.driver.maximize_window()
         self.driver.implicitly_wait(2)
-        search_bar = None
-        if search_engine == 'google':
-            search_bar = self.driver.find_element(by=By.XPATH, value='//*[@id="APjFqb"]')
-        elif search_engine == 'youtube':
-            search_bar = self.driver.find_element(by=By.XPATH, value='//*[@id="search"]')
+        search_bar = self.driver.find_element(by=By.XPATH, value=SEARCH_ENGINE[search_engine]["search_bar_XPATH"])
         search_query = self.create_search_query(search_engine)
         search_bar.send_keys(search_query)
         search_bar.send_keys(Keys.ENTER)
