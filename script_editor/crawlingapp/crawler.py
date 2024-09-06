@@ -30,7 +30,7 @@ class Searcher:
         """ Search Query 생성
 
         Positional Arguments:
-        search_engine -- default: 'google
+        search_engine -- default: 'google'
         """
         search_engine = 'google'
         primary_reference = None
@@ -81,4 +81,4 @@ class Crawler:
 if __name__ == '__main__':
     searcher = Searcher(ERROR_TYPE[0], "ambiguous word use")
     searcher.search_on('google')
-    searcher.terminate_searcher()
+    #searcher.terminate_searcher()
