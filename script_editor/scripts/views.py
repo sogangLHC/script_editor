@@ -17,6 +17,7 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")  # 환경 변수에서 API 키 가져오기
 
 
+# 1. gpt에 post 기능
 class ScriptEditAPIView(APIView):
     permission_classes = [IsAuthenticated]  # 사용자 인증이 필요한 API로 설정
 
@@ -26,7 +27,7 @@ class ScriptEditAPIView(APIView):
             original_text = serializer.validated_data["original_text"]
             audience_level = serializer.validated_data.get(
                 "audience_level", "general"
-            )  # 청중 수준 기본값은 'general'로 설정
+            )  # 기본값은 'general'로 설정
 
             # OpenAI API를 호출하여 대본 수정
             try:
@@ -53,6 +54,7 @@ class ScriptEditAPIView(APIView):
                     user=request.user,
                     original_text=original_text,
                     edited_text=edited_text,
+                    audience_level=audience_level,  # 청중 수준도 저장
                 )
 
                 return Response(
@@ -66,3 +68,14 @@ class ScriptEditAPIView(APIView):
                 )
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# 2. 사용자별 질문 로그 조회
+class UserScriptLogAPIView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        # 현재 로그인된 사용자의 모든 스크립트 조회
+        scripts = Script.objects.filter(user=request.user)
+        serializer = ScriptSerializer(scripts, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
