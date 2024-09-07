@@ -24,16 +24,22 @@ class ScriptEditAPIView(APIView):
         serializer = ScriptSerializer(data=request.data)
         if serializer.is_valid():
             original_text = serializer.validated_data["original_text"]
+            audience_level = serializer.validated_data.get(
+                "audience_level", "general"
+            )  # 청중 수준 기본값은 'general'로 설정
 
-            # OpenAI 최신 API 호출
+            # OpenAI API를 호출하여 대본 수정
             try:
                 response = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo",  # 사용할 GPT 모델
                     messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
+                        {
+                            "role": "system",
+                            "content": f"You are an assistant that corrects grammatical and meaning errors in scripts for an audience at the '{audience_level}' level.",
+                        },
                         {
                             "role": "user",
-                            "content": f"Please rewrite the following script in a cleaner and more refined manner:\n\n{original_text}",
+                            "content": f"Correct the following script for any grammatical or meaning errors:\n\n{original_text}",
                         },
                     ],
                     max_tokens=1000,
