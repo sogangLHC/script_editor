@@ -51,8 +51,8 @@ class Searcher:
         search_engine = 'google'
         primary_reference = SEARCH_ENGINE[self.search_engine]["primary_reference"]
         search_query_format = SEARCH_ENGINE[self.search_engine]["search_query"]
-        search_url = f"{search_query_format} {self.error_type} {self.error_description} "\
-                f"{primary_reference}"
+        search_url = f"{search_query_format} {self.error_type} {self.error_description} " \
+                     f"{primary_reference}"
 
         return search_url
 
@@ -83,7 +83,7 @@ class Searcher:
 
 
 # 검색 결과 웹 페이지로부터 상위 n개의 URL Reference Crawling을 담당하는 클래스
-class Crawler:
+class Scrapper:
     def __init__(self, error_type, error_description, search_engine):
         self.searcher = Searcher(error_type, error_description, search_engine)
         self.current_url = self.searcher.get_search_url()
@@ -91,7 +91,7 @@ class Crawler:
         self.soup = BeautifulSoup(self.target_page, "lxml")
         self.reference_url = []
 
-    def crawl_top_urls(self):
+    def scrap_top_urls(self):
         url_div = None
         if self.searcher.search_engine == "google":
             url_div = self.soup.find_all("a", jsname="UWckNb")
@@ -108,9 +108,9 @@ class Crawler:
 # For test
 """ Youtube에서 검색할 때 에러 뜸. """
 if __name__ == '__main__':
-    crawler = Crawler("cute", "cat", "google")
-    crawler.crawl_top_urls()
-    print(crawler.current_url)
-    print(crawler.reference_url)
+    scrapper = Scrapper("cute", "cat", "google")
+    scrapper.scrap_top_urls()
+    print(scrapper.current_url)
+    print(scrapper.reference_url)
     # crawler.searcher.driver.close()
     # searcher.terminate_searcher()
