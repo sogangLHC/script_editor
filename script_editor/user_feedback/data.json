@@ -1,0 +1,540 @@
+{
+   "kind":"customsearch#search",
+   "url":{
+      "type":"application/json",
+      "template":"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+   },
+   "queries":{
+      "request":[
+         {
+            "title":"Google Custom Search - subject and verb agreement",
+            "totalResults":"667",
+            "searchTerms":"subject and verb agreement",
+            "count":10,
+            "startIndex":1,
+            "inputEncoding":"utf8",
+            "outputEncoding":"utf8",
+            "safe":"off",
+            "cx":"42b3b8162a77d486c"
+         }
+      ],
+      "nextPage":[
+         {
+            "title":"Google Custom Search - subject and verb agreement",
+            "totalResults":"667",
+            "searchTerms":"subject and verb agreement",
+            "count":10,
+            "startIndex":11,
+            "inputEncoding":"utf8",
+            "outputEncoding":"utf8",
+            "safe":"off",
+            "cx":"42b3b8162a77d486c"
+         }
+      ]
+   },
+   "context":{
+      "title":"script-editor-feedback"
+   },
+   "searchInformation":{
+      "searchTime":0.452859,
+      "formattedSearchTime":"0.45",
+      "totalResults":"667",
+      "formattedTotalResults":"667"
+   },
+   "items":[
+      {
+         "kind":"customsearch#result",
+         "title":"What Is Subject-Verb Agreement? Definition and Examples",
+         "htmlTitle":"What Is <b>Subject</b>-<b>Verb Agreement</b>? Definition and Examples",
+         "link":"https://www.grammarly.com/blog/grammar-basics-what-is-subject-verb-agreement/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Jun 28, 2022 ... Subject-verb agreement is the grammatical rule that the subject and verb in a sentence should use the same number, person, and gender. With the\\xa0...",
+         "htmlSnippet":"Jun 28, 2022 <b>...</b> <b>Subject</b>-<b>verb agreement</b> is the grammatical rule that the subject and verb in a sentence should use the same number, person, and gender. With the&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/.../grammar-basics-what-is-subject-verb-agree...",
+         "htmlFormattedUrl":"https://www.grammarly.com/.../grammar-basics-what-is-<b>subject</b>-<b>verb</b>-<b>agree</b>...",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Ok52_1FX6D1Dd7Wc3nBd6HutOh52hfJfbii6d9T28-L8NwWGQP_YlEI&s",
+                  "width":"308",
+                  "height":"164"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2016/03/Subject-Verb-Agreement.jpg",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2022-06-29T07:00:17+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"What Is Subject-Verb Agreement?",
+                  "og:site_name":"What Is Subject-Verb Agreement? Definition and Examples",
+                  "og:title":"What Is Subject-Verb Agreement?",
+                  "ia:markup_url":"https://www.grammarly.com/blog/grammar-basics-what-is-subject-verb-agreement/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"Subject-verb agreement is the grammatical rule that the verb or verbs in a sentence must match the number, person, and gender of the…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2016/03/Subject-Verb-Agreement.jpg",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2022-06-28T11:54:28+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"Subject-verb agreement is the grammatical rule that the verb or verbs in a sentence must match the number, person, and gender of the…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/grammar-basics-what-is-subject-verb-agreement/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2016/03/Subject-Verb-Agreement.jpg"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"Subject of a Sentence: A Comprehensive Guide | Grammarly",
+         "htmlTitle":"<b>Subject</b> of a Sentence: A Comprehensive Guide | Grammarly",
+         "link":"https://www.grammarly.com/blog/subject-of-a-sentence/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Jul 17, 2023 ... Subject-verb agreement is the rule that in a sentence, the verb is conjugated according to the number of subjects and whether they're written in\\xa0...",
+         "htmlSnippet":"Jul 17, 2023 <b>...</b> <b>Subject</b>-<b>verb agreement</b> is the rule that in a sentence, the verb is conjugated according to the number of subjects and whether they&#39;re written in&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/blog/subject-of-a-sentence/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/<b>subject</b>-of-a-sentence/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj82qnuGs4ey4n_F3n7nE5UwMY-rteMwM41jvEo5FnBrDM2fPufhaVduIw&s",
+                  "width":"310",
+                  "height":"163"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2023/07/Subject-of-a-Sentence.png",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2023-07-18T07:00:56-0700",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"Understanding the Subject of a Sentence: A Comprehensive Guide",
+                  "og:site_name":"Subject of a Sentence: A Comprehensive Guide | Grammarly",
+                  "og:title":"Understanding the Subject of a Sentence: A Comprehensive Guide",
+                  "ia:markup_url":"https://www.grammarly.com/blog/subject-of-a-sentence/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"If you’ve ever wondered what makes a sentence a sentence, here’s your answer: a subject and a predicate. The subject of a sentence is the…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2023/07/Subject-of-a-Sentence.png",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2023-07-17T10:02:27-0700",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"If you’ve ever wondered what makes a sentence a sentence, here’s your answer: a subject and a predicate. The subject of a sentence is the…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/subject-of-a-sentence/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2023/07/Subject-of-a-Sentence.png"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"What Is a Compound Subject in Grammar? Meaning and Examples ...",
+         "htmlTitle":"What Is a Compound <b>Subject</b> in Grammar? Meaning and Examples ...",
+         "link":"https://www.grammarly.com/blog/compound-subject/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Oct 30, 2023 ... As always in English grammar, subject-verb agreement is essential ... subject, only the singular subject has to agree with the verb.",
+         "htmlSnippet":"Oct 30, 2023 <b>...</b> As always in English grammar, <b>subject</b>-<b>verb agreement</b> is essential ... subject, only the singular subject has to agree with the verb.",
+         "formattedUrl":"https://www.grammarly.com/blog/compound-subject/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/compound-<b>subject</b>/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvV0_0Giu-UpOD0ZI_ZKCQ2w097290rz1mkDwDfOGaCx-iTfnCiO5ul-k&s",
+                  "width":"310",
+                  "height":"163"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2016/07/bmd-4836-grammar.png",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2023-10-31T07:00:18+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"What Is a Compound Subject in Grammar? Meaning and Examples",
+                  "og:site_name":"What Is a Compound Subject in Grammar? Meaning and Examples | Grammarly",
+                  "og:title":"What Is a Compound Subject in Grammar? Meaning and Examples",
+                  "ia:markup_url":"https://www.grammarly.com/blog/compound-subject/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"A subject is one of the two main grammatical parts of a sentence or clause (the other is the predicate). The…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2016/07/bmd-4836-grammar.png",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2023-10-30T13:10:51+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"A subject is one of the two main grammatical parts of a sentence or clause (the other is the predicate). The…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/compound-subject/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2016/07/bmd-4836-grammar.png"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"Linking Verbs: Definition and Examples | Grammarly",
+         "htmlTitle":"Linking Verbs: Definition and Examples | Grammarly",
+         "link":"https://www.grammarly.com/blog/linking-verbs/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Jul 28, 2022 ... She hardly seems shy. 2 In subject-verb agreement, linking verbs match the subject. When it comes to subject\\xa0...",
+         "htmlSnippet":"Jul 28, 2022 <b>...</b> She hardly seems shy. 2 In <b>subject</b>-<b>verb agreement</b>, linking verbs match the subject. When it comes to subject&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/blog/linking-verbs/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/linking-<b>verb</b>s/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKq9u04m9dyiUJHhAJz9uhRHaGJ1FJl7o_mANmq0rNVGpeWW8o74fvws1&s",
+                  "width":"310",
+                  "height":"163"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/04/bmd-3261.png",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2022-07-29T07:00:29+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"Linking Verbs: Definition and Examples",
+                  "og:site_name":"Linking Verbs: Definition and Examples | Grammarly",
+                  "og:title":"Linking Verbs: Definition and Examples",
+                  "ia:markup_url":"https://www.grammarly.com/blog/linking-verbs/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"Linking verbs are verbs that don’t show an action but rather describe the subject. While verbs like walk or…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/04/bmd-3261.png",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2022-07-28T12:21:55+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"Linking verbs are verbs that don’t show an action but rather describe the subject. While verbs like walk or…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/linking-verbs/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/04/bmd-3261.png"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"Verb Tense Consistency: Grammar Rules",
+         "htmlTitle":"<b>Verb</b> Tense Consistency: Grammar Rules",
+         "link":"https://www.grammarly.com/blog/verb-tense-consistency/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"... subject and verb. Here's a tip: Want to make sure your writing always looks ... Verb Tense Agreement Will Keep You in the Present (Or the Past). Now\\xa0...",
+         "htmlSnippet":"... <b>subject and verb</b>. Here&#39;s a tip: Want to make sure your writing always looks ... <b>Verb</b> Tense <b>Agreement</b> Will Keep You in the Present (Or the Past). Now&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/blog/verb-tense-consistency/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/<b>verb</b>-tense-consistency/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZyXHDEc4jgKGwP6__AWXf0LpCvAYuweSCOysKRxg0nWJpus7FuaizmXj&s",
+                  "width":"310",
+                  "height":"163"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2017-03-21T11:09:13+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"Verb Tense Consistency: Grammar Rules",
+                  "og:site_name":"Verb Tense Consistency: Grammar Rules | Grammarly",
+                  "og:title":"Verb Tense Consistency: Grammar Rules",
+                  "ia:markup_url":"https://www.grammarly.com/blog/verb-tense-consistency/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"Verb tense consistency refers to keeping the same tense throughout a clause. We don’t want to have one time period being described in two different…",
+                  "fb:pages":"139729956046003",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2020-07-10T15:20:51+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"Verb tense consistency refers to keeping the same tense throughout a clause. We don’t want to have one time period being described in two different…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/verb-tense-consistency/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2024/02/5571-Verbs-with-s-Op4-437x230.png"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"Comma Between Subject and Verb | Grammarly",
+         "htmlTitle":"Comma Between <b>Subject and Verb</b> | Grammarly",
+         "link":"https://www.grammarly.com/blog/comma-with-subjects-and-verbs/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"With few exceptions, a comma should not separate a subject from its verb. Here's a tip: Want to make sure your writing always looks great?",
+         "htmlSnippet":"With few exceptions, a comma should not separate a <b>subject</b> from its <b>verb</b>. Here&#39;s a tip: Want to make sure your writing always looks great?",
+         "formattedUrl":"https://www.grammarly.com/blog/comma-with-subjects-and-verbs/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/comma-with-<b>subject</b>s-and-<b>verb</b>s/",
+         "pagemap":{
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2017-03-02T03:10:51+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"Comma Between Subject and Verb",
+                  "og:site_name":"Comma Between Subject and Verb | Grammarly",
+                  "og:title":"Comma Between Subject and Verb",
+                  "ia:markup_url":"https://www.grammarly.com/blog/comma-with-subjects-and-verbs/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"With few exceptions, a comma should not separate a subject from its verb. Here’s a tip: Want to make sure your writing always looks…",
+                  "fb:pages":"139729956046003",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2019-05-17T17:04:06+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"With few exceptions, a comma should not separate a subject from its verb. Here’s a tip: Want to make sure your writing always looks…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/comma-with-subjects-and-verbs/"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"Sentence Structure: Definition and Examples | Grammarly Blog",
+         "htmlTitle":"Sentence Structure: Definition and Examples | Grammarly Blog",
+         "link":"https://www.grammarly.com/blog/sentence-structure/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Jun 29, 2023 ... This is known as subject-verb agreement. Types of clauses. If every sentence were as simple as subject + verb + object, books would be so boring\\xa0...",
+         "htmlSnippet":"Jun 29, 2023 <b>...</b> This is known as <b>subject</b>-<b>verb agreement</b>. Types of clauses. If every sentence were as simple as subject + verb + object, books would be so boring&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/blog/sentence-structure/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/sentence-structure/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvnS1DJWejyGfz7qcx3YPZovPGwUChrXE9EG4PQw-tGJ8z3tN0epSJ77rM&s",
+                  "width":"310",
+                  "height":"163"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/10/sentence-structure.jpeg",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2021-10-07T07:00:25+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"Sentence Structure: Learn the Rules for Every Sentence Type",
+                  "og:site_name":"Sentence Structure: Definition and Examples | Grammarly Blog",
+                  "og:title":"Sentence Structure: Learn the Rules for Every Sentence Type",
+                  "ia:markup_url":"https://www.grammarly.com/blog/sentence-structure/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"Sentence structure is how all the parts of a sentence fit together. If you want to make more advanced and interesting sentences, you…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/10/sentence-structure.jpeg",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2023-06-29T10:21:01+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"Sentence structure is how all the parts of a sentence fit together. If you want to make more advanced and interesting sentences, you…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/sentence-structure/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/10/sentence-structure.jpeg"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"Collective Nouns: How Groups Are Named in English",
+         "htmlTitle":"Collective Nouns: How Groups Are Named in English",
+         "link":"https://www.grammarly.com/blog/collective-nouns/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Dec 28, 2023 ... ... subject of a sentence or clause (that is, maintaining subject-verb agreement) a bit tricky—it's almost like they're plural and singular at\\xa0...",
+         "htmlSnippet":"Dec 28, 2023 <b>...</b> ... subject of a sentence or clause (that is, maintaining <b>subject</b>-<b>verb agreement</b>) a bit tricky—it&#39;s almost like they&#39;re plural and singular at&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/blog/collective-nouns/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/collective-nouns/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7hsghA-RGOxP0qWWKxQfpSv8Aspu55QCTGPSXBB8M3IqucNPJIIeHldA&s",
+                  "width":"307",
+                  "height":"164"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2024/01/Collective_Nouns.png",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2024-01-02T07:00:43+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"Collective Nouns: How Groups Are Named in English",
+                  "og:site_name":"Collective Nouns—Definition and Most Popular Examples | Grammarly",
+                  "og:title":"Collective Nouns: How Groups Are Named in English",
+                  "ia:markup_url":"https://www.grammarly.com/blog/collective-nouns/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"Everyone probably knows that a group of cows is called a herd and perhaps that a group of lions is called a pride, but did…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2024/01/Collective_Nouns.png",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2023-12-28T22:42:41+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"Everyone probably knows that a group of cows is called a herd and perhaps that a group of lions is called a pride, but did…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/collective-nouns/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2024/01/Collective_Nouns.png"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"The Verb “To Be” Explained, With Examples | Grammarly Blog",
+         "htmlTitle":"The <b>Verb</b> “To Be” Explained, With Examples | Grammarly Blog",
+         "link":"https://www.grammarly.com/blog/to-be/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Dec 14, 2022 ... It had been a bad day even before it started raining. To be grammar rules. 1 Subject-verb agreement. All verbs must agree with their subjects,\\xa0...",
+         "htmlSnippet":"Dec 14, 2022 <b>...</b> It had been a bad day even before it started raining. To be grammar rules. 1 <b>Subject</b>-<b>verb agreement</b>. All verbs must agree with their subjects,&nbsp;...",
+         "formattedUrl":"https://www.grammarly.com/blog/to-be/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/to-be/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJzkI2GJUv7K0O97FF7dqIjnyPb7T-_acX0QXjxlwW9Ui9WFMMu81fPY&s",
+                  "width":"308",
+                  "height":"164"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/12/To-be.png",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2022-12-15T07:00:44+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"The Verb “To Be” Explained, With Examples",
+                  "og:site_name":"The Verb “To Be” Explained, With Examples | Grammarly Blog",
+                  "og:title":"The Verb “To Be” Explained, With Examples",
+                  "ia:markup_url":"https://www.grammarly.com/blog/to-be/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"The irregular verb to be is the most complicated of all the English verbs—and it just so happens to…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/12/To-be.png",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2022-12-14T09:04:32+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"The irregular verb to be is the most complicated of all the English verbs—and it just so happens to…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/to-be/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/12/To-be.png"
+               }
+            ]
+         }
+      },
+      {
+         "kind":"customsearch#result",
+         "title":"What is Syntax? Definition, Rules, and Examples | Grammarly",
+         "htmlTitle":"What is Syntax? Definition, Rules, and Examples | Grammarly",
+         "link":"https://www.grammarly.com/blog/syntax/",
+         "displayLink":"www.grammarly.com",
+         "snippet":"Apr 29, 2022 ... Syntax covers topics like word order and grammar rules, such as subject-verb agreement or the correct placement of direct and indirect objects.",
+         "htmlSnippet":"Apr 29, 2022 <b>...</b> Syntax covers topics like word order and grammar rules, such as <b>subject</b>-<b>verb agreement</b> or the correct placement of direct and indirect objects.",
+         "formattedUrl":"https://www.grammarly.com/blog/syntax/",
+         "htmlFormattedUrl":"https://www.grammarly.com/blog/syntax/",
+         "pagemap":{
+            "cse_thumbnail":[
+               {
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJPko9nlU2l9S5U_oB1n97f-TsQG1B8nAc_T0pQ-4nZJHn2zgOfE7UMoQB&s",
+                  "width":"310",
+                  "height":"163"
+               }
+            ],
+            "metatags":[
+               {
+                  "msapplication-tilecolor":"#15C39A",
+                  "og:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/05/BMD-3005.png",
+                  "theme-color":"#15C39A",
+                  "article:published_time":"2022-05-04T07:00:39+0000",
+                  "og:type":"article",
+                  "twitter:card":"summary_large_image",
+                  "twitter:title":"What Is Syntax? Learn the Meaning and Rules, With Examples",
+                  "og:site_name":"What is Syntax? Definition, Rules, and Examples | Grammarly",
+                  "og:title":"What Is Syntax? Learn the Meaning and Rules, With Examples",
+                  "ia:markup_url":"https://www.grammarly.com/blog/syntax/?ia_markup=1",
+                  "msapplication-tileimage":"https://contenthub-static.grammarly.com/assets/img/45ea5a5200a877333932ffb3dc3301b8/mstile-150x150.png",
+                  "og:description":"Syntax in English is the arrangement of words and phrases in a specific order. If you change the position of even one word,…",
+                  "fb:pages":"139729956046003",
+                  "twitter:image":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/05/BMD-3005.png",
+                  "article:tag":"Grammar",
+                  "fb:app_id":"203198053709806",
+                  "twitter:site":"@grammarly",
+                  "article:modified_time":"2022-04-29T11:18:32+0000",
+                  "viewport":"width=device-width, initial-scale=1.0",
+                  "twitter:description":"Syntax in English is the arrangement of words and phrases in a specific order. If you change the position of even one word,…",
+                  "og:locale":"en_US",
+                  "og:url":"https://www.grammarly.com/blog/syntax/"
+               }
+            ],
+            "cse_image":[
+               {
+                  "src":"https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/05/BMD-3005.png"
+               }
+            ]
+         }
+      }
+   ]
+}
