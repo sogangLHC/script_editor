@@ -10,8 +10,9 @@ from .serializers import ScriptSerializer
 from dotenv import load_dotenv
 import os
 
+
 # .env 파일에서 환경 변수 불러오기
-load_dotenv()
+load_dotenv("../")
 
 # OpenAI API 키 설정
 openai.api_key = os.getenv("OPENAI_API_KEY")  # 환경 변수에서 API 키 가져오기

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",  # DRF 토큰 인증
     "djoser",  # djoser 앱 추가
     "scripts",  # 새로운 애플리케이션
+    "user_feedback"  # User Feedback App
 ]
 
 # REST Framework 기본 설정
