@@ -16,3 +16,26 @@ class Script(models.Model):
 
     def __str__(self):
         return f"Script by {self.user.username} at {self.created_at}"
+
+
+class GrammarRule(models.Model):
+    # 문법 규칙 모델
+    tag = models.CharField(
+        max_length=100, unique=True
+    )  # 문법 규칙의 태그 (예: SV_AGREEMENT)
+    description = models.TextField()  # 문법 규칙에 대한 설명
+
+    def __str__(self):
+        return self.tag
+
+
+class ExampleSentence(models.Model):
+    # 예문 모델
+    rule = models.ForeignKey(
+        GrammarRule, on_delete=models.CASCADE, related_name="examples"
+    )  # 해당 예문이 속하는 문법 규칙
+    incorrect_sentence = models.TextField()  # 오류가 있는 예문
+    corrected_sentence = models.TextField()  # 수정된 예문
+
+    def __str__(self):
+        return f"Example for {self.rule.tag}: {self.incorrect_sentence[:30]}..."
