@@ -1,3 +1,7 @@
+"""
+    grammar_data.json 파일의 내용을 Google Spread Sheet에 POST하는 스크립트.
+"""
+
 import requests
 import json
 
@@ -7,9 +11,6 @@ def camel_case(s):
     camel_cased = words[0].lower() + ''.join(word.capitalize() for word in words[1:])
     return camel_cased
 
-
-# 전역 변수
-GRAMMAR_DATA = []
 
 SHEET_TAGS = {
     "Subject-Verb Agreement": "주어와 동사의 수일치 문제",
@@ -36,9 +37,10 @@ class WrongSentenceJson:
         for data in grammar_data:
             print(data)
             tag = camel_case(data['tag'])
-            if tag[len(tag)-1] == "s":
+            if tag[len(tag) - 1] == "s":
                 tag = tag[:len(tag) - 1]
 
+            # 현재 문장 단위로 Sheet를 작성하고 있어서 request 요청이 과도함. Sheety가 지원하는 방식을 다시 확인할 필요 있음.
             for sentence in data["오류_예문_목록"]:
 
                 input_data = {
@@ -48,7 +50,7 @@ class WrongSentenceJson:
                     }
                 }
 
-                # API POST 요청
+                # SHEETY API POST 요청
                 try:
                     post_response = requests.post(url=self.create_sheety_end_point(data['tag']), json=input_data)
 
