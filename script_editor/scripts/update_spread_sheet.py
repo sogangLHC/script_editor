@@ -26,7 +26,7 @@ with open("grammar_data.json", "r", encoding='utf-8') as f:
     grammar_data = json.load(f)
 
 
-class WrongSentenceJson:
+class WrongSentenceSheet:
 
     def create_sheety_end_point(self, tag_):
         tag_ = camel_case(tag_)
@@ -65,5 +65,5 @@ class WrongSentenceJson:
 
 
 if __name__ == "__main__":
-    inst = WrongSentenceJson()
+    inst = WrongSentenceSheet()
     inst.update_sheet()
