@@ -12,7 +12,7 @@ class ActionProvider {
       const token = localStorage.getItem("access_token");  // 저장된 토큰 가져오기
       console.log(token);
       const response = await axios.post(
-        "http://localhost:8000/api/edit-script/",
+        "http://localhost:8000/api/process-user-text/",
         { question },
         {
           headers: {
