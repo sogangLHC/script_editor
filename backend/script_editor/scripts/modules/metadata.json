@@ -1,0 +1,122 @@
+[
+    {
+        "incorrect": "She go ",
+        "corrected": "She goes "
+    },
+    {
+        "incorrect": "He do not ",
+        "corrected": "He does not "
+    },
+    {
+        "incorrect": "They is ",
+        "corrected": "They are "
+    },
+    {
+        "incorrect": "I has ",
+        "corrected": "I have "
+    },
+    {
+        "incorrect": "We is ",
+        "corrected": "We are "
+    },
+    {
+        "incorrect": "You was ",
+        "corrected": "You were "
+    },
+    {
+        "incorrect": "He have ",
+        "corrected": "He has "
+    },
+    {
+        "incorrect": "She were ",
+        "corrected": "She was "
+    },
+    {
+        "incorrect": "They has ",
+        "corrected": "They have "
+    },
+    {
+        "incorrect": "It do ",
+        "corrected": "It does "
+    },
+    {
+        "incorrect": "We was ",
+        "corrected": "We were "
+    },
+    {
+        "incorrect": "I is ",
+        "corrected": "I am "
+    },
+    {
+        "incorrect": "He go ",
+        "corrected": "He goes "
+    },
+    {
+        "incorrect": "She do ",
+        "corrected": "She does "
+    },
+    {
+        "incorrect": "They was ",
+        "corrected": "They were "
+    },
+    {
+        "incorrect": "We has ",
+        "corrected": "We have "
+    },
+    {
+        "incorrect": "It were ",
+        "corrected": "It was "
+    },
+    {
+        "incorrect": "He are ",
+        "corrected": "He is "
+    },
+    {
+        "incorrect": "She have ",
+        "corrected": "She has "
+    },
+    {
+        "incorrect": "They do not ",
+        "corrected": "They does not "
+    },
+    {
+        "incorrect": "I was ",
+        "corrected": "I were "
+    },
+    {
+        "incorrect": "They goes ",
+        "corrected": "They go "
+    },
+    {
+        "incorrect": "We goes ",
+        "corrected": "We go "
+    },
+    {
+        "incorrect": "It are ",
+        "corrected": "It is "
+    },
+    {
+        "incorrect": "He were ",
+        "corrected": "He was "
+    },
+    {
+        "incorrect": "She am ",
+        "corrected": "She is "
+    },
+    {
+        "incorrect": "They do ",
+        "corrected": "They does "
+    },
+    {
+        "incorrect": "We does not ",
+        "corrected": "We do not "
+    },
+    {
+        "incorrect": "You is ",
+        "corrected": "You are "
+    },
+    {
+        "incorrect": "It have ",
+        "corrected": "It has "
+    }
+]
