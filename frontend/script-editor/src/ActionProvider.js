@@ -26,7 +26,7 @@ class ActionProvider {
       const correctedText = response.data.corrected_text; // 수정된 텍스트 가져오기
 
       // 챗봇에 보여줄 응답 형식 설정
-      const botMessage = this.createChatBotMessage(`수정된 문장: ${correctedText}`);
+      const botMessage = this.createChatBotMessage(`수정된 문장은 다음과 같습니다 🤔: ${correctedText}`);
       
       // 상태 업데이트하여 챗봇 메시지 표시
       this.setState((prev) => ({
